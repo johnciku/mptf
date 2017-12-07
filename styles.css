@@ -5,13 +5,15 @@ font-family: 'Handlee', Open Sans;
 .container-fluid {
   padding-top: 0;
 }
-
+.col-md-12 media{
+  background-image: url(../backgrounds/landing.jpg);
+}
 /*-------MEDIA, OVERLAY AND TEXT----------*/
 .media{
 padding: 0;
 height: 850px;
 width:100%;
-background-image: url(../images/landing.jpg);
+background-image: url(../backgrounds/landing.jpg);
  background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
@@ -30,11 +32,9 @@ background-image: url(../images/foodsBg.jpg);
 background-position: center center;
 background-size: cover;
 }
-.media3{
+#intro{
 padding: 0;
-height: 300px;
-width:100%;
-background-image: url(../images/subscribe.jpg);
+background-image: url("/home/john/Documents/chance/backgrounds/landing.jpg");
  background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
